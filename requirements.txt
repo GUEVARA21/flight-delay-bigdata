@@ -1,0 +1,21 @@
+﻿# Python dependencies for analysis and modeling
+#
+# Main execution environment: Databricks.
+# PySpark and Delta Lake are provided by the
+# Databricks runtime used for data processing.
+#
+# Install with:
+# pip install -r requirements.txt
+#
+# Package versions should be verified against
+# the actual Databricks environment.
+
+numpy
+pandas
+matplotlib
+scipy
+scikit-learn
+xgboost==3.4.1
+requests
+airportsdata
+pyarrow
