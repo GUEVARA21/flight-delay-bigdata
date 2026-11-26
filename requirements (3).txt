@@ -1,0 +1,10 @@
+# Databricks Apps (Python 3.11); change only the original requirements.txt
+streamlit>=1.40,<2
+pandas>=2.1,<3
+plotly>=5.20,<7
+databricks-sdk>=0.45
+databricks-sql-connector>=4.0
+pyarrow>=15
+pydeck>=0.9,<1
+airportsdata==20250523
+numpy>=1.26,<3
