@@ -22,6 +22,23 @@
 
 # COMMAND ----------
 
+
+print("=== ESQUEMAS DESDE EL NOTEBOOK ===")
+spark.sql("SHOW SCHEMAS IN workspace").show(
+    truncate=False
+)
+
+print("=== VERIFICAR TABLA GOLD ===")
+print(
+    "Existe:",
+    spark.catalog.tableExists(
+        "workspace.gold_flights.flights_features"
+    )
+)
+
+
+# COMMAND ----------
+
 # MAGIC %md
 # MAGIC ## 1 · Configuration and source/columns
 
